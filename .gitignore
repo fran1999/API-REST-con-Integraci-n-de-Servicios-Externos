@@ -1,0 +1,101 @@
+#Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+.flattened-pom.xml
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# IntelliJ
+.idea
+*.ipr
+*.iml
+*.iws
+
+# NetBeans
+nb-configuration.xml
+
+# Visual Studio Code
+.vscode
+.factorypath
+
+# OSX
+.DS_Store
+
+# Vim
+*.swp
+*.swo
+
+# patch
+*.orig
+*.rej
+
+# Local environment
+.env
+
+# Plugin directory
+/.quarkus/cli/plugins/
+# TLS Certificates
+.certs/
+
+
+# --- Archivos de compilación y build ---
+/target/
+/out/
+/build/
+
+# --- Archivos de dependencias ---
+/.mvn/wrapper/maven-wrapper.jar
+
+# --- Configuración de IDEs ---
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# --- Archivos del sistema ---
+.DS_Store
+Thumbs.db
+
+# --- Archivos temporales ---
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# --- Linux/macOS ---
+ehthumbs.db
+Icon?
+.Trash-*
+*~
+
+# --- Windows ---
+Desktop.ini
+
+# --- Quarkus específicos ---
+.quarkus/
+.quarkus-bootstrap/
+
